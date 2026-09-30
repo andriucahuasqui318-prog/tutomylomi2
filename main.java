@@ -34,7 +34,7 @@ public class main {
                 
             
             case 2:
-
+               System.out.println(Andriu Japon);
 
             case 3:
             
