@@ -35,9 +35,11 @@ public class main {
             
             case 2:
 
+               System.out.println("Jair piedra");
+
                 System.out.println("Eduardo Tapia");
 
-               System.out.println(Andriu Japon);
+               System.out.println("Andriu Japon");
 
             case 3:
             
