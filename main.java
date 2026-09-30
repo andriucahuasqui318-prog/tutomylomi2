@@ -31,10 +31,10 @@ public class main {
         switch (opcion) {
             case 1:
                 SALARIO = SALARIO +(SALARIO*0.25)
-                
+                break;
             
             case 2:
-
+             System.out.println(Andriu Japon);
 
             case 3:
             
