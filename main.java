@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 //CREAR UN PROGRAMA QUE DETERMINE EL SALARIO FINAL DE UN TRABAJADOR
 //SI ES PROGRAMADOR SE AGREGA UN 25% AL SALARIO TOTAL 
@@ -14,7 +15,7 @@ public class main {
     public static void main(String[] args){
 
         String NOMBRE; 
-        double SALARIO; 
+        double SALARIO=600
         int opcion; 
 
         Scanner entrada =new Scanner(System,in);
@@ -29,7 +30,7 @@ public class main {
 
         switch (opcion) {
             case 1:
-                
+                SALARIO = SALARIO +(SALARIO*0.25)
                 
             
             case 2:
@@ -38,7 +39,7 @@ public class main {
             case 3:
             
         }
-
+    JOptionPane.showMessageDialog(null, "El salario es:"+ 6 SALARIO);
 
     }
 }
